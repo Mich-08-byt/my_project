@@ -82,7 +82,7 @@ Utilisez le script `nken` pour gérer le projet :
 
 Sous Windows, utilisez les fichiers `.bat` correspondants.
 
-## 🔧 Configuration des Démonstrations
+##  Configuration des Démonstrations
 
 Le système de configuration permet de choisir quelle démo exécuter sans recompiler.
 
