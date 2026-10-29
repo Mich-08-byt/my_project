@@ -6,7 +6,7 @@
 
 RihenNatural est un framework graphique léger écrit en C++ moderne, utilisant SDL3 pour le rendu. Il inclut plusieurs démonstrations dont une simulation de particules de feu avec des effets réalistes et personnalisables, ainsi qu'une démo basée sur "The Nature of Code" de Daniel Shiffman.
 
-## 🎯 Fonctionnalités
+##  Fonctionnalités
 
 - **Moteur graphique 2D** avec transformations matricielles
 - **Système de particules** performant pour effets visuels
@@ -18,7 +18,7 @@ RihenNatural est un framework graphique léger écrit en C++ moderne, utilisant 
 - **Build system cross-platform** (Windows et Linux)
 - **Système de configuration** pour choisir les démos sans recompilation
 
-## 📦 Structure du Projet
+##  Structure du Projet
 
 ```
 RihenNatural/
@@ -36,7 +36,7 @@ RihenNatural/
 └── demos.config         # Configuration des démos
 ```
 
-## 🚀 Installation et Utilisation
+##  Installation et Utilisation
 
 ### Prérequis
 
@@ -135,7 +135,7 @@ description=Une nouvelle démonstration
 ./nken run --demo particles --fire-config custom_fire.config
 ```
 
-## 🎮 Démonstrations Disponibles
+##  Démonstrations Disponibles
 
 ### 1. Simulation de Feu (particles)
 
@@ -161,7 +161,7 @@ Implémentation du chapitre 0 de "Nature of Code" avec plusieurs types de marche
 ./nken run --demo randomwalk --walker-type gaussian --step-size 5
 ```
 
-## 📝 Créer une Nouvelle Démonstration
+##  Créer une Nouvelle Démonstration
 
 Pour ajouter une nouvelle démo, suivez ces étapes :
 
@@ -193,7 +193,7 @@ namespace nkentseu {
 }
 ```
 
-## 🔥 Simulation de Feu - Paramètres
+##  Simulation de Feu - Paramètres
 
 La simulation de feu peut être configurée via :
 
@@ -222,7 +222,7 @@ enableWind=true
 windStrength=8.0
 ```
 
-## 🚶‍♂️ Marche Aléatoire - Fonctionnalités
+##  Marche Aléatoire - Fonctionnalités
 
 La démo Random Walk implémente les concepts du chapitre 0 de "Nature of Code" :
 
@@ -242,7 +242,7 @@ La démo Random Walk implémente les concepts du chapitre 0 de "Nature of Code" 
 ./nken run --demo randomwalk --walker-type perlin
 ```
 
-## ⚙️ Build System
+##  Build System
 
 Le projet utilise un système de build personnalisé avec :
 
@@ -253,7 +253,7 @@ Le projet utilise un système de build personnalisé avec :
 
 Les scripts de build détectent automatiquement les fichiers sources et les recompilent si nécessaire.
 
-## 📋 TODO/Améliorations Futures
+##  TODO/Améliorations Futures
 
 - [ ] Support OpenGL pour l'accélération matérielle
 - [ ] Système de textes et polices
@@ -263,11 +263,11 @@ Les scripts de build détectent automatiquement les fichiers sources et les reco
 - [ ] Support audio
 - [ ] Plus de démos Nature of Code
 
-## 📄 Licence
+## Licence
 
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
-## 🤝 Contribution
+##  Contribution
 
 Les contributions sont les bienvenues ! N'hésitez pas à :
 1. Fork le projet
@@ -276,7 +276,7 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 4. Push vers la branche
 5. Ouvrir une Pull Request
 
-## 📞 Support
+## Support
 
 Pour toute question ou problème, veuillez ouvrir une issue sur le repository du projet.
 
